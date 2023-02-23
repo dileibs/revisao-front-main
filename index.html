@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100;1,300;1,400&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Revisão Front</title>
+</head>
+<body>
+    <!-- Tags de texto -->
+    <!-- Títulos -->
+    <h1>Titulo Principal</h1>
+    <h2 id="subtitle">2º Titulo</h2>
+    <h3 class="texto">3º Titulo</h3>
+    <h4 class="texto">4º Titulo</h4>
+    <h5 class="texto">5º Titulo</h5>
+    <h6 class="texto">6º Titulo</h6>
+
+    <p class="paragrafo">
+        Lorem <strong>ipsum</strong> dolor <em>sit amet</em> consectetur adipisicing elit. Quo <span style="font-style: italic ;">voluptatibus</span> totam vel dolore natus voluptates neque et quidem aliquid? Error eos ad incidunt ex alias aperiam non magni rem quia.
+    </p>
+
+    <span>Texto span</span><br/>
+
+    <label for="mas">Masculino</label>
+    <input type="radio" name="sexo" id="mas">
+    <label for="fem">Feminino</label>
+    <input type="radio" name="sexo" id="fem"><br/>
+
+    <div class="links">
+        <a href="https://www.google.com.br">Google</a><br/>
+        <a href="https://www.google.com.br" target="_blank" rel="noopener noreferrer">Google</a>
+    </div>
+
+    <!-- Tags de Lista -->
+
+    <ol>
+        <h3>Cidades Mais Próxima da Etec</h3>
+        <li>São Vicente</li>
+        <li>Santos</li>
+        <li>Praia Grande</li>
+        <li>Cubatão</li>
+    </ol>
+
+    <ul>
+        <h3>Cidades com Praia</h3>
+        <li>Praia Grande</li>
+        <li>Santos</li>
+        <li>São Vicente</li>
+    </ul>
+
+    <dl>
+        <h3>Pontos Turisticos</h3>
+        <dt>São Vicente</dt>
+        <dd>
+            <ul>
+                <li>Ilha porchat</li>
+                <li>Cachoeiras</li>
+                <li>Mirante</li>
+            </ul>
+        </dd>
+        <dt>Santos</dt>
+        <dd>
+            <ul>
+                <li>Jardim da Praia</li>
+                <li>Emissario Submarino</li>
+                <li>Capela do Embaré</li>
+            </ul>
+        </dd>
+    </dl>
+
+    <!-- Tags de tabela -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th> 
+                <th>Sobrenome</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bruna</td>
+                <td>Silva</td>
+                <td>Brasilia</td>
+                <td>DF</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Mota</td>
+                <td>São Carlos</td>
+                <td>SP</td>
+            </tr>
+            <tr>
+                <td>Angelo</td>
+                <td>Gomes</td>
+                <td>Florianópolis</td>
+                <td >SC</td>
+            </tr>
+            <tr>
+                <td>Brian</td>
+                <td>Lopes</td>
+                <td colspan="2" style="text-align: center;">USA</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>Snow</td>
+                <td>Pelotas</td>
+                <td>RS</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <caption><strong>Tabela de Afiliados</strong></caption>
+        </tfoot>
+    </table>
+
+    <!-- Tags de Multimidea -->
+    <img src="images/paisagem.jfif" alt="Paisagem">
+    <video src=""></video>
+    <audio src=""></audio>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lXJs1xhCs-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14583.19131083142!2d-46.391277699999996!3d-23.96758825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1c96e253174f%3A0x58311f2e929d86eb!2sBrisamar%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1676593040357!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- Tags de Formulário -->
+    <form action="">
+        <input type="text">
+        <input type="radio">
+        <input type="checkbox">
+        <input type="date">
+        <input type="number">
+        <input type="password">
+        <input type="range">
+        <input type="file">
+        <select name="combobox">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+            <option value="4">Opção 4</option>
+            <option value="5">Opção 5</option>
+        </select>
+        <textarea name="texto" cols="30" rows="10"></textarea>
+        <input type="submit">
+        <button type="submit">Clique para enviar</button>
+    </form>
+</body>
+</html>
