@@ -15,7 +15,7 @@ pessoa.aniversario = function () {
     "Parabéns, " +
     pessoa.nomeCompleto() +
     " agora você tem " +
-    pessoa.idade +
+    pessoa.idade +\
     " anos"
   );
 };

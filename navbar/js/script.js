@@ -1,7 +1,12 @@
 function toggleMenu() {
   const listaDoMenu = document.querySelector("ul");
-  const activeStatus = listaDoMenu.getAttribute('active');
-  listaDoMenu.setAttribute("active", !activeStatus);
+  const activeStatus = listaDoMenu.getAttribute("active");
+
+  if (activeSatus) {
+    listaDoMenu.removeAttribute("active");
+  } else {
+    listaDoMenu.setAttribute("active", true);
+  }
 }
 
 // listaDoMenu recebe o componente 'ul'
